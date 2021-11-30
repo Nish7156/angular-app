@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './contact/login/login.component';
 import { RegisterComponent } from './contact/register/register.component';
 import { HomeComponent } from './home/home.component';
 import { EditServerComponent } from './server/edit-server/edit-server.component';
@@ -13,6 +14,7 @@ const AppRoutes : Routes = [
   {path : '', component : HomeComponent},
   {path : 'about', component : AboutComponent},
   {path : 'contact', component : ContactComponent},
+  {path : 'login' , component : LoginComponent},
   {path : 'users', component : UsersComponent},
   {path : 'users/:id/:name', component : UserComponent},
   {path : 'user', component : UserComponent},

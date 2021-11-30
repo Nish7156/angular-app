@@ -16,6 +16,8 @@
           <li class="nav-item" routerLink="active">
             <a class="nav-link" routerLink="/contact">contact</a>
           </li>
+         
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown link
@@ -29,5 +31,43 @@
         </ul>
       </div>
     </div>
+    <div class="flex align-right" style="margin-right: 20px;">
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Login</button>
+    </div>
   </nav>
+
+
+
+  
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="offcanvas-body">
+      <div class="page-centered">
+        <div class="logo">
+            <p>Logo</p>
+        </div>
+        <h1 class="login-h1">Login to your Account</h1>
+        <br>
+        <form method="post">
+            <div class="form-group">
+                <input type="text" placeholder="Username" required class="form-control form-input">
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="password" placeholder="Password" required class="form-control form-input">
+            </div>
+            <br>
+            <input type="submit" class="form-submit" value="Log In">
+            <input type="submit" class="form-submit" routerLink="/register" value="Register">
+           
+        </form>
+    </div>
+    </div>
+  </div>
+</div>
  

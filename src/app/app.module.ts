@@ -20,6 +20,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './contact/register/register.component';
 import { LoginComponent } from './contact/login/login.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AboutSecComponent } from './work/about-sec/about-sec.component';
+import { AuthComponent } from './contact/auth/auth.component';
+import { MiddleContentComponent } from './work/middle-content/middle-content.component';
 
 
 
@@ -40,7 +43,10 @@ import { HttpClientModule } from '@angular/common/http';
     ToggleComponent,
     TabsComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    AboutSecComponent,
+    AuthComponent,
+    MiddleContentComponent
   
   
   ],
