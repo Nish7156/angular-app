@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { MissingTranslationStrategy, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -23,6 +23,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { AboutSecComponent } from './work/about-sec/about-sec.component';
 import { AuthComponent } from './contact/auth/auth.component';
 import { MiddleContentComponent } from './work/middle-content/middle-content.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
+
+
+
 
 
 
@@ -47,6 +52,7 @@ import { MiddleContentComponent } from './work/middle-content/middle-content.com
     AboutSecComponent,
     AuthComponent,
     MiddleContentComponent
+    
   
   
   ],
@@ -55,7 +61,10 @@ import { MiddleContentComponent } from './work/middle-content/middle-content.com
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MaterialModule
+    
   
   ],
   providers: [],
