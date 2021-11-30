@@ -1,7 +1,9 @@
 {
   "name": "angular-app",
   "version": "0.0.0",
+  "home" :"https://github.com/Nish7156/angular-app.git",
   "scripts": {
+    "deploy" : "gh-pages -d build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
