@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup,FormControl } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact',
@@ -25,7 +26,13 @@ export class ContactComponent implements OnInit {
   };
  
   
-  constructor() { }
+
+    
+
+
+
+
+   
 
   ngOnInit(): void {
     this.FormData = new FormGroup({
